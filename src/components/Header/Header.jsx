@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
     return (
-        <div>
-            <h1>Yo Bro</h1>
+        <div className="text-3xl space-x-10 mb-20">
+          <Link  to="/">Home</Link>
+          <Link to="/login">Login</Link>
         </div>
     );
 };
